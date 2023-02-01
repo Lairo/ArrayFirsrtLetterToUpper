@@ -10,7 +10,7 @@ namespace ArrayFirsrtLetterToUpper
     {
         static void Main(string[] args)
         {
-            string[] friends = new string[5] { "bon", "don", "ron", "shaun", "mike" };
+            string[] friends = { "bon", "don", "ron", "shaun", "mike" };
 
             int counter = 1;
             foreach (string friend in friends)
